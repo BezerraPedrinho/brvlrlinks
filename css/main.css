@@ -1,3 +1,13 @@
+@keyframes bttoup {
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
 .main-container {
   min-width: 320px;
   display: flex;
@@ -7,18 +17,42 @@
 .main-container .main-profilePicture {
   width: 150px;
   margin-top: 48px;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0;
+  opacity: 0;
 }
 .main-container .main-socialName {
   margin-top: 26px;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
 }
 .main-container .main-profileName {
   font-weight: 400;
   font-size: 22px;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
 }
 .main-container .main-mdKit {
   text-decoration: none;
   font-size: 22px;
   font-weight: 400px;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.9s;
+  opacity: 0;
 }
 .main-container .main-mdKit:hover {
   color: white;
@@ -28,24 +62,55 @@
   flex-direction: row;
   width: 302px;
   justify-content: space-between;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
 }
 .main-container .main-socialLinks {
   text-decoration: none;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
 }
 .main-container .main-socialLinks:hover img {
   filter: saturate(0%) brightness(200%); /* Exemplo: inverter a cor da imagem */
 }
 .main-container .main-letering {
   margin-top: 16px;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1.8s;
+  opacity: 0;
 }
 .main-container .main-boxIllustration {
   margin-top: 27px;
+  position: relative;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.1s;
+  opacity: 0;
 }
 .main-container .main-devsignature {
   color: white;
   text-decoration: none;
   position: absolute;
   bottom: 20px;
+  animation-name: bttoup;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s;
+  opacity: 0;
 }
 
 * {
