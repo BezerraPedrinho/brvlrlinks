@@ -1,0 +1,13 @@
+@import "mainContainer";
+$primary-color: #34ab3c;
+$second-color: #13190f;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+  color: $primary-color;
+}
+body {
+  background-color: $second-color;
+}

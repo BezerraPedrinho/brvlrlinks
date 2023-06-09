@@ -1,0 +1,49 @@
+.main-container {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  .main-profilePicture {
+    width: 150px;
+    margin-top: 48px;
+  }
+  .main-socialName {
+    margin-top: 26px;
+  }
+  .main-profileName {
+    font-weight: 400;
+    font-size: 22px;
+  }
+  .main-mdKit {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400px;
+  }
+  .main-mdKit:hover {
+    color: white;
+  }
+  .main-socialContainer {
+    display: flex;
+    flex-direction: row;
+    width: 302px;
+    justify-content: space-between;
+  }
+  .main-socialLinks {
+    text-decoration: none;
+  }
+  .main-socialLinks:hover img {
+    filter: saturate(0%) brightness(200%); /* Exemplo: inverter a cor da imagem */
+  }
+  .main-letering {
+    margin-top: 16px;
+  }
+  .main-boxIllustration {
+    margin-top: 27px;
+  }
+  .main-devsignature {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+  }
+}
